@@ -173,16 +173,45 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 
 ## STM 32 CUBE PROGRAM :
+```
+DEVELOPED BY: SHARMILA A
+Register no: 212221230094
+#include "main.h"
+#include "lcd.h"
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
+int main(void)
+{
+  HAL_Init();
+  SystemClock_Config();
+  MX_GPIO_Init();
+  	 Lcd_PortType ports[]={GPIOA,GPIOA,GPIOA,GPIOA};
+  	  Lcd_PinType pins[]={GPIO_PIN_3,GPIO_PIN_2,GPIO_PIN_1,GPIO_PIN_0};
+  	  Lcd_HandleTypeDef lcd;
+  	  lcd=Lcd_create(ports,pins,GPIOB,GPIO_PIN_0,GPIOB,GPIO_PIN_1,LCD_4_BIT_MODE);
+  	  Lcd_cursor(&lcd,0,0);
+  	  Lcd_string(&lcd,"212221230028");
+  	  Lcd_cursor(&lcd,1,0);
+  	  Lcd_string(&lcd,"GAYATHRI RAJ"); 
+  while (1)
+  {
+    	
+  }
+}
+```
 
 
 
 
 ## Output screen shots of proteus  :
- 
+ ![A4](https://github.com/Sharmilasha/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/94506182/6017d929-8e30-4301-9ea1-74da0662550c)
+![A5](https://github.com/Sharmilasha/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/94506182/7db2b81e-add0-4d0f-a63e-29c963928d85)
+
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  
- 
+![A6](https://github.com/Sharmilasha/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/94506182/a91609a8-29d1-4d18-bdfe-6761100a8e11)
+
 ## Result :
 Interfacing a digital output and digital input  with ARM microcontroller are simulated in proteus and the results are verified.
 
