@@ -205,7 +205,8 @@ int main(void)
 
 ## Output screen shots of proteus  :
  ![A4](https://github.com/Sharmilasha/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/94506182/6017d929-8e30-4301-9ea1-74da0662550c)
-![A5](https://github.com/Sharmilasha/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/94506182/7db2b81e-add0-4d0f-a63e-29c963928d85)
+![EXP-4](https://github.com/Sharmilasha/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/94506182/a3c87db6-f6a5-4d09-bd68-a8bb0b182408)
+
 
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
